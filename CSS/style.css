@@ -38,7 +38,7 @@ img {
 .perfume {
     margin-left: 25px;
     margin-top: 25px;
-    font-size: 10px;
+    font-size: 0.6em;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
     color: hsl(228, 12%, 48%);
@@ -46,7 +46,7 @@ img {
 
 .main_text {
     color: hsl(212, 21%, 14%);
-    font-size: 25px;
+    font-size: clamp(1.7em, 1.5vh, 1.5em);
     font-family: 'Faunces', sans-serif;
     font-weight: 700;
     margin-left: 25px;
@@ -60,7 +60,7 @@ img {
     color: hsl(228, 12%, 48%);
     letter-spacing: 1px;
     line-height: 1.5;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .price_1 {
@@ -83,7 +83,7 @@ img {
 
 button {
     margin-left: 25px;
-    margin-top: 25%;
+    margin-top: 18%;
     width: 200px;
     height: 35px;
     border: none;
@@ -103,5 +103,3 @@ button {
 .attribution a {
      color: hsl(228, 45%, 44%); 
 }
-
-
